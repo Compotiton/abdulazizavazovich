@@ -122,6 +122,12 @@ body {
   display: grid; place-items: center;
   background: var(--ink); flex: 0 0 auto;
 }
+.icon.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.icon.telegram { background: #229ed9; }
+.icon.phone { background: #25c05a; }
+
 .icon svg, .save-btn svg {
   width: 22px; height: 22px; fill: none; stroke: #fff;
   stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
